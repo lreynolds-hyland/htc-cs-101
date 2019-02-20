@@ -31,7 +31,7 @@ namespace Week02
             string A = "Josh";
                int dog = 32;
                 string favCZolor = "blue";
-            string myHobby = "guitar";
+            string obby = "guitar";
                bool blah = true;
                                 double d = 5.58;
             char c = 'j';
@@ -40,7 +40,7 @@ namespace Week02
             //Console.WriteLine("My age is {0}", myAge);
                         Console.WriteLine("My age is " + dog);
                                                                                         Console.WriteLine("My favorite color is " + favCZolor);
-        Console.WriteLine("My favorite hobby is " + myHobby);
+        Console.WriteLine("My favorite hobby is " + obby);
     Console.WriteLine("My height is " + d + " feet tall.");
             Console.WriteLine("The first initial of my name is " + c);
                     Console.WriteLine("I am old enough to drive: " + blah);
