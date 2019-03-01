@@ -1,0 +1,19 @@
+Week 5 Challenges
+ 1. Let's practice some of our arithmetic
+ a. Write a method that takes in a number and adds 1 to it, return your new number
+	- try to use some of the new arithmetic operators you learned!
+ b. Write a method that takes in a number and adds 3 to that number, return your new number 
+ c. Write a method that takes in a number and multiplys that number by 3, return your new number 
+
+
+2. Calculate the next leap years
+ Write a method that asks the user for a year
+ Write another method that takes that user input and determines if it is a leap year
+	- Leaps years are defined as follows:
+		* If the year is divisible by 4 then it is a leap year
+		* Except if the year is divisible by 100 then it IS NOT a lear year
+		* Except if the year is divisible by 400 then it is a leap year
+ For an extra challenge:
+	- Write a program that does the following:
+		* Using the current year, generate the next 50 leap years
+		* Print these years out to the console

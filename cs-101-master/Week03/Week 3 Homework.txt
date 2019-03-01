@@ -1,0 +1,8 @@
+Grade Checker
+=============
+Your teacher needs some help! They need an application that can transform a numerical grade value into a letter grade, and you have the skills and know-how to help them out! 
+Your program should prompt the user for a numeric letter grade (integer value: 0 - 100). 
+Remember, you will have to convert the value provided by Console.ReadLine() and store it in the appropriate data type!
+
+Then construct logic that uses if, else if, and else to output a letter grade for the number
+	A = 100-90, B = 89-80, C = 79-70, D = 69-65, F = 64-0

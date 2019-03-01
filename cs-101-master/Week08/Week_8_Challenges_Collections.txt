@@ -1,0 +1,48 @@
+1. Even Numbers in an Array
+===========================
+1. Create a new integer array with 5 values.
+2. Set each of the array values to the 1st 5 even numbers.
+3. Print them out to the Console
+
+
+
+2. List of Names
+================
+1. Create a new List of Strings
+2. Add these names to the list: Alice, Bob, Charles, Danielle, Edgar and Frannie
+3. Ask the user to add another name to the list
+4. Ask the user for a name to check if it in the list
+5. Use a foreach loop to check if it is.
+6. Tell the user if the name is in the list or not.
+
+
+
+3. Create a collection of the first 100 Fibonacci numbers
+========================================================
+Recall that the Fibonacci series is defined by the the nth number is the sum of the two previous
+f[n] = f[n-1] + f[n-2]  => 0,1,1,2,3,5 ...
+Use this information to find and store the first 100 fibonacci numbers.
+1. Start with 0 and 1 as the first 2 numbers.
+2. Find the next by adding the first two together.
+3. Ask the user to  for a number between 1 and 100
+4. Print the fibonacci number of the number provided.
+
+
+
+4. Check if a string is a palindrome
+=========================================================
+- A palindrome is defined as follows:
+	* A group of characters that is the same forward as it is backwards
+- Examples of some palindromes:
+    * Tacocat
+    * Hannah
+    * Kayak
+    * Never odd or even
+    * Rats live on no evil star
+    * (EXTRA CHALLENGE) A man, a plan, a canal - Panama!
+- Palindromes normally do not take into account letter casing, spaces or punctuation
+- Write a program that does the following:
+	* Asks the user to enter in a word or phrase
+	* Check to see if this string is a palindrome
+		* If it is a palindrome, print out Yes
+        * Otherwise, print out No

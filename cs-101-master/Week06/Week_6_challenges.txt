@@ -1,0 +1,45 @@
+// 1. For Loop
+// Use a for loop to give me the sum of all integers from 1 to 1000.
+
+
+
+//2. Calculate the next leap years
+//	- Leaps years are defined as follows:
+//		* If the year is divisible by 4 then it is a leap year
+//		* Except if the year is divisible by 100 then it IS NOT a lear year
+//		* Except if the year is divisible by 400 then it is a leap year
+//	- Write a program that does the following:
+//		* Using the current year, generate the next 50 leap years
+//		* Print these years out to the console
+
+
+
+//3. Check if a string is a palindrome
+//	- A palindrome is defined as follows:
+//		* A group of characters that is the same forward as it is backwards
+//	- Examples of some palindromes:
+//		* Tacocat
+//        * Hannah
+//		* Kayak
+//        * Never odd or even
+//        * Rats live on no evil star
+//        * A man, a plan, a canal - Panama!
+//	- Palindromes normally do not take into account letter casing, spaces or punctuation
+//	- Write a program that does the following:
+//		* Asks the user to enter in a word or phrase
+//		* Check to see if this string is a palindrome
+//			* If it is a palindrome, print out Yes
+//            * Otherwise, print out No
+		
+		
+		
+//4. Generate Fibonacci numbers
+//	- Fibonacci numbers are a sequence of integers where the next integer is defined as the sum of the previous two values
+//	- The first 10 Fibonacci numbers are as follows:
+//		1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+//	- Write a program that does the following:
+//		* Asks the user to enter an integer
+//        * Generate Fibonacci numbers out to this value
+//        * Example:
+//			> Enter an integer: 10
+//			> 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 

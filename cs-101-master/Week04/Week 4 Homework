@@ -1,0 +1,23 @@
+Come up with a program that asks the user for three things.
+
+1. What day of the week is it? 
+2. What hour of the day is it? (Military Time)
+3. What is the current Temperature? (Use an integer for this).
+
+
+I want your program to tell me where the user will be based on these rules: 
+
+If it’s a weekday (Monday thru Friday) and its between 9am and 3pm. I will be at school, regardless of the temperature.
+If it’s a Monday, or Wednesday, or Friday and its between 4pm and 7pm, and the temperature is above 50 degrees, I will be at soccer practice.
+If its Tuesday or Thursday, and it’s between 5pm, and 9pm, I will be at coding club, regardless of the temperature.
+If its Saturday, and it’s between 12pm and 3pm, and the temperature is above 65 degrees I will be at the pool.
+If its Saturday, and it’s between 12pm, and 7pm, and the temperature is below or equal to 65 degrees, I will be playing board games with friends.
+If it’s between 12am (midnight), and 11am on any day of the week, regardless of the temperature, I will be asleep.
+
+However, if it’s between 10pm, and 7am, on a weekday, regardless of the temperature, I will also be asleep.
+At any other time, I will be at home, but not asleep.
+
+If I say between 5pm and 9pm, assume that at exactly 9pm, I will no longer be doing the thing.
+
+Get as far as you can with this, and submit your assignment URL in a private message on piazza.
+

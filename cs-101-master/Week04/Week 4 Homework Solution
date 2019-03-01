@@ -1,0 +1,39 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("What day of the week is it?");
+		string dayOfWeek = Console.ReadLine();
+		Console.WriteLine("What hour of the day is it?");
+		int hourOfDay = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("What is the current temp?");
+		int tempature = Convert.ToInt32(Console.ReadLine());
+		
+		if ((dayOfWeek == "monday" || dayOfWeek == "tuesday" || dayOfWeek == "wednesday" || dayOfWeek == "thursday" || dayOfWeek == "friday") && (hourOfDay >= 9 && hourOfDay <= 15))
+			{
+				Console.WriteLine("I will be at school");
+			}
+		else if((dayOfWeek == "monday" || dayOfWeek == "wednesday"|| dayOfWeek == "friday") && (hourOfDay >= 16 && hourOfDay <= 19 ) && (tempature > 50) )
+			{
+					Console.WriteLine("I will be at soccer practice");
+			}
+		else if ((dayOfWeek == "tuesday" || dayOfWeek == "thursday") && (hourOfDay >= 17 && hourOfDay <= 19) )
+			{
+				Console.WriteLine("I will be at coding club");
+			}
+			else if ((hourOfDay >= 22 || hourOfDay <= 7) && (dayOfWeek == "monday" || dayOfWeek == "tuesday" || dayOfWeek == "wednesday" || dayOfWeek == "thursday" || dayOfWeek == "friday"))
+			{
+				Console.WriteLine("I will be asleep");
+			}
+			else 
+			{
+				Console.WriteLine("I will be home but not asleep");
+			}
+			
+				
+		   
+	}
+	
+}
